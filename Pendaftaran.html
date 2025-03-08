@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Pasien</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Form Pendaftaran Pasien</h1>
+    
+    <form action="proses.php" method="post">
+        Nama Lengkap <br>
+        <input type="text" name="Nama_Lengkap" id="nama" required> <br>
+        Tanggal Lahir <br>
+        <input type="date" name="tanggalLahir" id="tanggalLahir"> <br>
+        Jenis Kelamin <br>
+        <input type="radio" name="Jk" id="jkl"
+        value="L" checked> Laki Laki <br>
+        <input type="radio" name="Jk" id="jkp"
+        value="P" checked> Perempuan <br>
+        Tempat Lahir <br>
+        <select name="tempatlahir" id="tempatlahir">
+            <option value="PLB">Palembang</option>
+            <option value="JKT">Jakarta</option>
+            <option value="MLG">Malang</option>
+        </select> <br>
+        Spesialis Tujuan <br>
+        <select id="spesialis" name="spesialis">
+            <option value="Jantung">Spesialis Jantung</option>
+            <option value="Bedah">Spesialis Bedah</option>
+            <option value="Penyakit Dalam">Spesialis Penyakit Dalam</option>
+            <option value="Bedah">Spesialis Bedah</option>
+        </select><br>
+        Keluhan <br>
+        <textarea name="Pesan" id="Pesan"></textarea> <br>
+        <button type="submit">Daftar</button>
+        <br>
+
+    </form>
+
+    <br> <br>
+    <a href="index.html">Kembali ke Beranda</a>
+    <a href="TentangKami.html"> Tentang Kami</a>
+</body>
+</html>
