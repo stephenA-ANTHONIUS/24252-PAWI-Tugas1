@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+</head>
+<body>
+    <!-- Inline -->
+    <button onclick="alert('Selamat Siang')">Selam</button>
+    <button id="btn">Belajar JS</button>
+    <p id="nama"></p>
+    <p id="umur"></p>
+    <ul id="mahasiswa"></ul>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Nilai</th>
+            </tr>
+    </thead>
+        <tbody id="nilai"></tbody>
+    </table>
+    <ul id="quotes"></ul>
+    
+    <!-- Internal -->
+    <script>
+        const btn = document.getElementById('btn');
+        btn.onclick = function() {
+            alert('Selamat Belajar JavaSCript')
+        }
+    </script>
+
+    <!-- external -->
+    <script src="script.js"></script>
+
+    <h2>QUOTES </h2>
+    <div class="row">
+        <div class="col-lg-3">
+        <div class="card bg-primary" style="width: 18rem;">
+          <div class="card-body text-white">
+            <h5 class="card-title">Rumi</h5>
+            <p class="card-text">Your heart is the size of an ocean. Go find yourself in its hidden depths</p>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+            <div class="col-lg-3">
+            <div class="card bg-primary" style="width: 18rem;">
+            <div class="card-body text-white">
+                <h5 class="card-title">Budi</h5>
+                <p class="card-text">sdschbdcyhjsdhbcsydhbc</p>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+        <div class="card bg-primary" style="width: 18rem;">
+        <div class="card-body text-white">
+            <h5 class="card-title">Budi</h5>
+            <p class="card-text">sdschbdcyhjsdhbcsydhbc</p>
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>
