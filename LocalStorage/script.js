@@ -23,6 +23,10 @@ function simpan() {
 
     // buat sipan ke local storage
     localStorage.setItem('ls_bukutamu', JSON.stringify(data));
+
+    // kosongkan isi elemen daftar tamu]
+    daftar_tamu.innerHTML = '';
+    // pannggil fungsi tampil
     tampil();
 }
 
