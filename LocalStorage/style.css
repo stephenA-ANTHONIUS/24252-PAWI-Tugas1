@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 2px #00000066;
+}
+
+h3 {
+    margin-top: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #00000033;
+}
+
+.input-group,
+select,
+button {
+    max-width: 500px;
+    margin: 0 auto 15px auto;
+}
+
+select {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.row {
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#daftar_tamu li {
+    text-align: left;
+    margin: 5px 0;
+}
+
+#total_tamu,
+#tamu_laki,
+#tamu_perempuan {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
