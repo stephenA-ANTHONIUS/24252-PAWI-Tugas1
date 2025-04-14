@@ -16,7 +16,7 @@ function simpan() {
         data = []; // buat array kosong
     } else {
         // ambil data dari local storage
-        dataata = JSON.parse(localStorage.getItem('ls_bukutamu'))
+        data = JSON.parse(localStorage.getItem('ls_bukutamu'))
     }
 
     // massukan value input nama kedalam array
